@@ -1,0 +1,77 @@
+2013-10-30 
+I modify mma7660.c to fit that there is not a lcd board on the mather board.
+modify the s3cfb.c.
+2013-10-29
+config input touchscreen fit to 4.3 5 7 8 'lcd . 
+2013-10-26
+add ok210  screen size distribution function
+2013-10-23
+the camera of ov9650 is well now.change sound card wm8960.
+2013-10-23
+change rtc bug.
+2013-10-15
+add 3g E261 wcdma,AC591 EC189 cdma2000
+2013-09-02
+add 3g mf210 wcdma,mc2716 cdma2000
+2013-08-20
+5/7/8 inch lcd panel driver is well,and the menuconfig has these config items.
+2013-07-13
+usb wifi TP-LINK TL-WN725N 2.0
+2013-07-05
+add usb wifi rt73 and rtl 8088cus tp-link TP-LINK TL-WN725N 1.0  on ok210 linux kernel.
+2013-06-28
+add 3g model to kernel ok210 linux and forlinx210
+2013-06-21
+mma7660 is not set in both ok210 and forlinx210.
+2013-06-20
+ok210 keypad function is ok, 36 keys is ok because . irda function is ok
+2013-06-18
+ok210 sdio mmc3 is ok now
+2013-06-17
+change ok210 ok ,but sdio wifi not ok
+2013-05-08
+change ft5x06 and s3c touch screen driver to one kernel image. 
+2013-04-28
+add s3c_keypad device to linux.
+2013-04-03
+add 18b20 adc device in input misc device.bs 
+2013-04-02
+add hs0038 ira device in char device.bs
+2013-04-01
+Linux 2.6.35 support usb2.0,test usb store device speed is about 14MB/s,usb1.1 speed is 960KB/S .monkey
+add mma7660 3g-axis.bs
+2013-03-23 
+add usb convert converter pl2302
+2013-02-05
+add hardware ecc 8bit is well too.forlinx.bs
+2013-01-23 
+1g is ok on linux platform android .config change too.bs 
+2013-01-11
+sdio wifi is working well while the board reset
+2012-11-27
+1 reslove the probles that adc confict with touchscreen.
+2012-11-23
+1 Add MT29F8G08ABABAWP nandflash support,it is 8 bit hardware ecc.
+2012-10-11-09
+     Linux add button k8,k9 and  reslove some problems conflict with old s3c6410.
+2012-10-10
+1 reslove pwm and blacklight resoure conflict
+2 use mouse device can work.
+3 reslove lcd turn black  after 10 's miniters
+4 reslove touch  can not work sometiems,conflict with android config.
+5 Linux add wifi function.
+
+2012-10-24
+Linux support capacitance touch .
+Note:Linux resistance touch and Linux capacitance touch have different touch driver ,so have two zImage files.
+     Linux and android have same resistance driver file of ft5x06.c .
+
+2012-10-25
+     Linux and android have same resistance driver file of s3c-ts.c
+2012-10-26 
+     Linux and android add ov3640 tvp5150 driver,linux test ok,android have some problems.
+2012-10-29
+     Linux and android add audio record function.
+
+
+

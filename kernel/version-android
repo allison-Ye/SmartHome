@@ -1,0 +1,64 @@
+2013-10-30 
+I modify mma7660.c to fit that there is not a lcd board on the mather board.
+modify the s3cfb.c.
+2013-10-29
+config input touchscreen fit to 4.3 5 7 8 'lcd . 
+2013-09-29
+android2.3 sound record is well now ,but it's not good in linux
+2013-09-18
+usb wifi and 3g ok in both OK210 and forlinx210.
+2013-09-06
+bluetooth change 
+2013-08-21
+5/7/8 inch lcd panel driver is well,and the menuconfig has these config items.
+2013-07-13
+usb wifi TP-LINK TL-WN725N 2.0 TP-LINK TL-WN725N 1.0
+2013-06-21
+ok210_irda ok,keypad ok,buzzer and ADC default y. 
+2013-06-19
+change button in android k4->Power,k5->Search k1~k5 funtion is ok. 
+2013-05-08
+change ft5x06 and s3c touch screen driver to one kernel image. 
+2013-05-04
+add usbdisk auto mount on android.
+add s3c key pad .maybe have bug in android.
+2013-04-01
+micro sd hc card support .monkey
+2013-04-01
+Linux 2.6.35 support usb2.0,test usb store device speed is about 14MB/s,usb1.1 speed is 960KB/S .monkey
+2013-04-01
+add mma7660 3g-axis
+2013-02-07
+1g android and ecc is ok too.bs
+2013-01-23
+1g is ok on linux platform android .config change too.bs 
+2013-01-11
+sdio wifi is working well while the board reset
+2012-11-27
+1 reslove the probles that adc confict with touchscreen.
+2012-11-23
+1 Add MT29F8G08ABABAWP nandflash support,it is 8 bit hardware ecc.
+
+2012-10-18
+1 Add capacitor panel  touch function . 
+
+2012-10-19
+1 Add HDMI function.
+
+2012-10-24
+Linux support capacitance touch .
+Note:Linux resistance touch and Linux capacitance touch have different touch driver ,so have two zImage files.
+     Linux and android have same resistance driver file of ft5x06.c .
+
+2012-10-25
+     Linux and android have same resistance driver file of s3c-ts.c
+
+2012-10-26 
+     Linux and android add ov3640 tvp5150 driver,linux test ok,android have some problems.
+2012-10-29
+     Linux and android add audio record function.
+2012-10-30
+     Android add wifi function.
+
+
+

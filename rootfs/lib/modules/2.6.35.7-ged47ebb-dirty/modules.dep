@@ -1,0 +1,108 @@
+kernel/crypto/pcbc.ko:
+kernel/crypto/fcrypt.ko:
+kernel/crypto/ansi_cprng.ko:
+kernel/drivers/scsi/scsi_wait_scan.ko:
+kernel/drivers/net/wan/hdlc_raw_eth.ko:
+kernel/drivers/net/wan/hdlc_cisco.ko:
+kernel/drivers/net/wan/hdlc_fr.ko:
+kernel/drivers/net/wan/hdlc_ppp.ko:
+kernel/drivers/net/wan/x25_asy.ko: kernel/net/lapb/lapb.ko
+kernel/drivers/net/wan/dlci.ko:
+kernel/drivers/net/wan/lapbether.ko: kernel/net/lapb/lapb.ko
+kernel/drivers/net/usb/asix.ko:
+kernel/drivers/net/usb/net1080.ko:
+kernel/drivers/net/usb/cdc_subset.ko:
+kernel/drivers/net/usb/zaurus.ko:
+kernel/drivers/net/wireless/at76c50x-usb.ko:
+kernel/drivers/net/wireless/libertas_tf/libertas_tf.ko:
+kernel/drivers/net/wireless/libertas_tf/libertas_tf_usb.ko: kernel/drivers/net/wireless/libertas_tf/libertas_tf.ko
+kernel/drivers/net/wireless/mac80211_hwsim.ko:
+kernel/drivers/net/appletalk/ipddp.ko: kernel/net/appletalk/appletalk.ko kernel/net/802/psnap.ko kernel/net/llc/llc.ko
+kernel/drivers/i2c/algos/i2c-algo-pcf.ko:
+kernel/drivers/i2c/busses/i2c-stub.ko:
+kernel/drivers/i2c/i2c-smbus.ko:
+kernel/drivers/media/common/tuners/tuner-xc2028.ko:
+kernel/drivers/media/common/tuners/tuner-simple.ko: kernel/drivers/media/common/tuners/tuner-types.ko
+kernel/drivers/media/common/tuners/tuner-types.ko:
+kernel/drivers/media/common/tuners/mt20xx.ko:
+kernel/drivers/media/common/tuners/tda8290.ko: kernel/drivers/media/common/tuners/tda18271.ko
+kernel/drivers/media/common/tuners/tea5767.ko:
+kernel/drivers/media/common/tuners/tea5761.ko:
+kernel/drivers/media/common/tuners/tda9887.ko:
+kernel/drivers/media/common/tuners/tda18271.ko:
+kernel/drivers/media/common/tuners/xc5000.ko:
+kernel/drivers/media/common/tuners/mc44s803.ko:
+kernel/drivers/media/video/em28xx/em28xx-dvb.ko: kernel/drivers/media/common/tuners/tuner-xc2028.ko kernel/drivers/media/dvb/frontends/s5h1409.ko kernel/drivers/media/dvb/frontends/tda10023.ko kernel/drivers/media/common/tuners/tuner-simple.ko kernel/drivers/media/common/tuners/tuner-types.ko kernel/drivers/media/dvb/frontends/zl10353.ko kernel/drivers/media/dvb/frontends/lgdt330x.ko kernel/drivers/media/dvb/dvb-core/dvb-core.ko
+kernel/drivers/media/video/cs53l32a.ko:
+kernel/drivers/media/video/wm8775.ko:
+kernel/drivers/media/video/cx25840/cx25840.ko:
+kernel/drivers/media/video/tlg2300/poseidon.ko: kernel/drivers/media/dvb/dvb-core/dvb-core.ko
+kernel/drivers/media/video/cx231xx/cx231xx.ko:
+kernel/drivers/media/video/cx231xx/cx231xx-alsa.ko: kernel/drivers/media/video/cx231xx/cx231xx.ko
+kernel/drivers/media/video/cx231xx/cx231xx-dvb.ko: kernel/drivers/media/dvb/dvb-core/dvb-core.ko kernel/drivers/media/video/cx231xx/cx231xx.ko kernel/drivers/media/common/tuners/xc5000.ko
+kernel/drivers/media/video/pvrusb2/pvrusb2.ko: kernel/drivers/media/video/cx2341x.ko kernel/drivers/media/common/tuners/tda8290.ko kernel/drivers/media/common/tuners/tda18271.ko kernel/drivers/media/dvb/frontends/s5h1409.ko kernel/drivers/media/dvb/frontends/s5h1411.ko kernel/drivers/media/dvb/frontends/tda10048.ko kernel/drivers/media/common/tuners/tuner-simple.ko kernel/drivers/media/common/tuners/tuner-types.ko kernel/drivers/media/dvb/frontends/lgdt330x.ko kernel/drivers/media/dvb/dvb-core/dvb-core.ko
+kernel/drivers/media/video/videobuf-dvb.ko: kernel/drivers/media/dvb/dvb-core/dvb-core.ko
+kernel/drivers/media/video/cx2341x.ko:
+kernel/drivers/media/dvb/dvb-core/dvb-core.ko:
+kernel/drivers/media/dvb/frontends/zl10353.ko:
+kernel/drivers/media/dvb/frontends/tda10023.ko:
+kernel/drivers/media/dvb/frontends/lgdt330x.ko: kernel/drivers/media/dvb/dvb-core/dvb-core.ko
+kernel/drivers/media/dvb/frontends/s5h1409.ko:
+kernel/drivers/media/dvb/frontends/tda10048.ko:
+kernel/drivers/media/dvb/frontends/s5h1411.ko:
+kernel/net/802/p8022.ko: kernel/net/llc/llc.ko
+kernel/net/802/psnap.ko: kernel/net/llc/llc.ko
+kernel/net/802/p8023.ko:
+kernel/net/802/stp.ko: kernel/net/llc/llc.ko
+kernel/net/ipv4/ipip.ko:
+kernel/net/ipv4/ip_gre.ko:
+kernel/net/ipv4/ah4.ko:
+kernel/net/ipv4/esp4.ko:
+kernel/net/ipv4/ipcomp.ko:
+kernel/net/ipv4/xfrm4_tunnel.ko:
+kernel/net/ipv4/xfrm4_mode_beet.ko:
+kernel/net/ipv4/xfrm4_mode_transport.ko:
+kernel/net/ipv4/xfrm4_mode_tunnel.ko:
+kernel/net/ipv4/tcp_bic.ko:
+kernel/net/ipv4/tcp_westwood.ko:
+kernel/net/ipv4/tcp_htcp.ko:
+kernel/net/xfrm/xfrm_user.ko:
+kernel/net/8021q/8021q.ko:
+kernel/net/llc/llc.ko:
+kernel/net/llc/llc2.ko: kernel/net/llc/llc.ko
+kernel/net/bridge/bridge.ko: kernel/net/802/stp.ko kernel/net/llc/llc.ko
+kernel/net/ipx/ipx.ko: kernel/net/802/p8022.ko kernel/net/802/psnap.ko kernel/net/llc/llc.ko kernel/net/802/p8023.ko
+kernel/net/appletalk/appletalk.ko: kernel/net/802/psnap.ko kernel/net/llc/llc.ko
+kernel/net/wanrouter/wanrouter.ko:
+kernel/net/x25/x25.ko:
+kernel/net/lapb/lapb.ko:
+kernel/net/netrom/netrom.ko: kernel/net/ax25/ax25.ko
+kernel/net/rose/rose.ko: kernel/net/ax25/ax25.ko
+kernel/net/ax25/ax25.ko:
+kernel/net/can/can.ko:
+kernel/net/irda/irda.ko:
+kernel/net/bluetooth/bluetooth.ko:
+kernel/net/rxrpc/af-rxrpc.ko:
+kernel/net/rxrpc/rxkad.ko: kernel/net/rxrpc/af-rxrpc.ko
+kernel/net/atm/atm.ko:
+kernel/net/atm/clip.ko: kernel/net/atm/atm.ko
+kernel/net/atm/br2684.ko: kernel/net/atm/atm.ko
+kernel/net/atm/lec.ko: kernel/net/atm/atm.ko
+kernel/net/l2tp/l2tp_core.ko:
+kernel/net/decnet/decnet.ko:
+kernel/net/econet/econet.ko:
+kernel/net/phonet/phonet.ko:
+kernel/net/phonet/pn_pep.ko: kernel/net/phonet/phonet.ko
+kernel/net/dccp/dccp.ko:
+kernel/net/dccp/dccp_ipv4.ko: kernel/net/dccp/dccp.ko
+kernel/net/dccp/dccp_ipv6.ko: kernel/net/dccp/dccp_ipv4.ko kernel/net/dccp/dccp.ko
+kernel/net/dccp/dccp_diag.ko: kernel/net/dccp/dccp.ko
+kernel/net/sctp/sctp.ko:
+kernel/net/rds/rds.ko:
+kernel/net/rds/rds_tcp.ko: kernel/net/rds/rds.ko
+kernel/net/tipc/tipc.ko:
+kernel/net/9p/9pnet.ko:
+kernel/net/caif/caif.ko:
+kernel/net/caif/chnl_net.ko: kernel/net/caif/caif.ko
+kernel/net/caif/caif_socket.ko: kernel/net/caif/caif.ko
+kernel/net/wimax/wimax.ko:

@@ -1,0 +1,14 @@
+#! /bin/sh
+
+/bin/mount -a
+echo /sbin/mdev > /proc/sys/kernel/hotplug
+mdev -s
+
+insmod /sht1x.ko
+insmod /gy30.ko
+insmod /MOTOR.ko
+insmod /AudioCtrl.ko
+insmod /RC522.ko
+boa -c /etc/&
+#/avserver&
+#/liveServer&

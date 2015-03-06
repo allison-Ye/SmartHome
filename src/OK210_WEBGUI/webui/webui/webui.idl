@@ -1,0 +1,52 @@
+// webui.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(webui.tlb)，该类型库将成为
+// webui.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(7E101825-1E92-4159-9E2A-AFF052BE557E), version(1.0),
+  helpfile("webui.hlp"),
+  helpstring("webui ActiveX 控件模块"),
+  control ]
+library webuiLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CwebuiCtrl 的主调度接口
+
+	[ uuid(50F9499A-A5CB-4174-8E25-FE2F1E0AFBDC),
+	  helpstring("webui Control 的调度接口")]
+	dispinterface _Dwebui
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  CwebuiCtrl 的事件调度接口
+
+	[ uuid(AA1FBA33-BFF6-4458-A485-FDD340981A8C),
+	  helpstring("webui Control 的事件接口") ]
+	dispinterface _DwebuiEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CwebuiCtrl 的类信息
+
+	[ uuid(55608E4B-7384-4BFB-8A0D-9C3B4C7774F8),
+	  helpstring("webui Control"), control ]
+	coclass webui
+	{
+		[default] dispinterface _Dwebui;
+		[default, source] dispinterface _DwebuiEvents;
+	};
+
+};
